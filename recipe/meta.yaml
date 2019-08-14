@@ -1,7 +1,7 @@
 {% set name = "elementpath" %}
-{% set version = "1.1.8" %}
+{% set version = "1.2.0" %}
 {% set file_ext = "tar.gz" %}
-{% set sha256 = "c1aec0aec576fdb8fe6ade696b3fc370a8bb709af8b6d1aeb62e4a4396878da9" %}
+{% set sha256 = "1701da8d78ab21d484ce2cb285af357fe39b9a74034edd86582aaf41ca17d6eb" %}
 
 package:
   name: {{ name }}
