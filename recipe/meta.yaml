@@ -13,24 +13,24 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - pip
 
   run:
-    - python
+    - python >=3.5
 
 test:
   imports:
     - elementpath
 
 about:
-  home: https://github.com/brunato/elementpath
+  home: https://github.com/sissaschool/elementpath
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -44,10 +44,7 @@ about:
       selectors, because lxml.etree already has it’s own implementation of
       XPath 1.0.
 
-      The XPath 2.0 functions implementation is partial, due to wide number of
-      functions that this language provides.
-
-  dev_url: https://github.com/brunato/elementpath
+  dev_url: https://github.com/sissaschool/elementpath
 
 extra:
   recipe-maintainers:
