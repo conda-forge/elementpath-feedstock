@@ -1,7 +1,7 @@
 {% set name = "elementpath" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 {% set file_ext = "tar.gz" %}
-{% set sha256 = "e7cfccf0bba2f433f58465c0a19e856194dd7afcf878253f0c0323b203690796" %}
+{% set sha256 = "b29f626d690cb6f3716a65867a456c54dd679ddce7249bb2af4f37d33b83035d" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
