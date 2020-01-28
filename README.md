@@ -1,7 +1,7 @@
 About elementpath
 =================
 
-Home: https://github.com/brunato/elementpath
+Home: https://github.com/sissaschool/elementpath
 
 Package license: MIT
 
@@ -16,9 +16,6 @@ ElementTree library and for the lxml.etree library.
 For lxml.etree this package could be useful for providing XPath 2.0
 selectors, because lxml.etree already has it’s own implementation of
 XPath 1.0.
-
-The XPath 2.0 functions implementation is partial, due to wide number of
-functions that this language provides.
 
 
 Current build status
