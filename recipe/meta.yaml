@@ -1,15 +1,14 @@
 {% set name = "elementpath" %}
-{% set version = "1.4.1" %}
-{% set file_ext = "tar.gz" %}
-{% set sha256 = "b29f626d690cb6f3716a65867a456c54dd679ddce7249bb2af4f37d33b83035d" %}
+{% set version = "1.4.2" %}
+{% set sha256 = "b287ad88efcf33d86cdbc8687b15d0520529a910eb7558315c44d21e93a35f5e" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ file_ext }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -36,13 +35,13 @@ about:
   license_file: LICENSE
   summary: XPath 1.0/2.0 parsers and selectors for ElementTree
   description: |
-      The proposal of this package is to provide XPath 1.0 and 2.0 selectors
-      for Python’s ElementTree XML data structures, both for the standard
-      ElementTree library and for the lxml.etree library.
+    The proposal of this package is to provide XPath 1.0 and 2.0 selectors
+    for Python’s ElementTree XML data structures, both for the standard
+    ElementTree library and for the lxml.etree library.
 
-      For lxml.etree this package could be useful for providing XPath 2.0
-      selectors, because lxml.etree already has it’s own implementation of
-      XPath 1.0.
+    For lxml.etree this package could be useful for providing XPath 2.0
+    selectors, because lxml.etree already has it’s own implementation of
+    XPath 1.0.
 
   dev_url: https://github.com/sissaschool/elementpath
 
