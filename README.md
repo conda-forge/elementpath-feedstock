@@ -5,7 +5,7 @@ Home: https://github.com/sissaschool/elementpath
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: XPath 1.0/2.0 parsers and selectors for ElementTree
 
