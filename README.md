@@ -5,9 +5,11 @@ Home: https://github.com/sissaschool/elementpath
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elementpath-feedstock/blob/master/LICENSE.txt)
 
 Summary: XPath 1.0/2.0 parsers and selectors for ElementTree
+
+Development: https://github.com/sissaschool/elementpath
 
 The proposal of this package is to provide XPath 1.0 and 2.0 selectors
 for Python’s ElementTree XML data structures, both for the standard
