@@ -1,6 +1,6 @@
 {% set name = "elementpath" %}
-{% set version = "2.0.4" %}
-{% set sha256 = "ed52e3fa33855a266a42b6a34c7aae41f73170e5a2d316e61198878d9ad74b41" %}
+{% set version = "2.0.5" %}
+{% set sha256 = "d9612efed8ec2a5611f8fac90111e4c49464084eae9087028e63ac4b0b99cd90" %}
 
 package:
   name: {{ name }}
@@ -17,7 +17,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python >=3.5
     - pip
 
