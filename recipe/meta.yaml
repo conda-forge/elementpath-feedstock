@@ -1,6 +1,6 @@
 {% set name = "elementpath" %}
-{% set version = "2.2.1" %}
-{% set sha256 = "c7b996c5624926f329f4379fbcffd5787629e08b2f8d7159d23525e9243ba637" %}
+{% set version = "2.2.2" %}
+{% set sha256 = "68de07c1aec3b1d33126111252cc699600dd1e45802625344aa6eb9e680ef157" %}
 
 package:
   name: {{ name }}
