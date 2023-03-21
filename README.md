@@ -1,11 +1,11 @@
-About elementpath
-=================
+About elementpath-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elementpath-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sissaschool/elementpath
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/elementpath-feedstock/blob/main/LICENSE.txt)
 
 Summary: XPath 1.0/2.0 parsers and selectors for ElementTree
 
